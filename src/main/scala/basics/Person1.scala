@@ -15,7 +15,6 @@ object ConstructorPerson {
     def constructorPattern(p: Person1) = p match {
 
       case Person1(name, age) => "name: " + name + "age: " + age
-      case Person1(_, age) => "age: "
       case _ => "other"
 
     }
