@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/janicecheng/git-project/scalaapps/project/}scalaapps-build...
+[info] Updating {file:/Users/jcchoiling/IdeaProjects/scalaapps/project/}scalaapps-build...
 [debug] :: resolving dependencies :: default#scalaapps-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#scalaapps-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#scalaapps-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e3953c5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38c57f83
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1766,19 +1766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1789ms :: artifacts dl 55ms
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT compile produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-compile.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT runtime produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-runtime.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT test produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-test.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT provided produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-provided.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT optional produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-optional.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT compile-internal produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-compile-internal.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT runtime-internal produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-runtime-internal.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT test-internal produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-test-internal.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT plugin produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-plugin.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT sources produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-sources.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT docs produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-docs.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT pom produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-pom.xml
-[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT scala-tool produced in /Users/janicecheng/git-project/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-scala-tool.xml
-[debug] 	resolve done (1789ms resolve - 55ms download)
+[debug] :: resolution report :: resolve 3281ms :: artifacts dl 165ms
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT compile produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-compile.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT runtime produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-runtime.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT test produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-test.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT provided produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-provided.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT optional produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-optional.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT compile-internal produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-compile-internal.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT runtime-internal produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-runtime-internal.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT test-internal produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-test-internal.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT plugin produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-plugin.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT sources produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-sources.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT docs produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-docs.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT pom produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-pom.xml
+[debug] 	report for default#scalaapps-build;0.1-SNAPSHOT scala-tool produced in /Users/jcchoiling/IdeaProjects/scalaapps/project/target/resolution-cache/reports/default-scalaapps-build-scala-tool.xml
+[debug] 	resolve done (3281ms resolve - 165ms download)
 [info] Done updating.

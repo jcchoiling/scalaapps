@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 1573ms :: artifacts dl 48ms
-[debug] 	report for default#scalaapps$sbt_2.11;1.0 default produced in /Users/janicecheng/git-project/scalaapps/target/resolution-cache/reports/default-scalaapps$sbt_2.11-default.xml
-[debug] 	resolve done (1573ms resolve - 48ms download)
+[debug] :: resolution report :: resolve 2405ms :: artifacts dl 76ms
+[debug] 	report for default#scalaapps$sbt_2.11;1.0 default produced in /Users/jcchoiling/IdeaProjects/scalaapps/target/resolution-cache/reports/default-scalaapps$sbt_2.11-default.xml
+[debug] 	resolve done (2405ms resolve - 76ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#scalaapps$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -727,21 +727,11 @@
 [debug] == resolving dependencies default#scalaapps$sources_2.11;1.0->org.scala-lang#scala-library;2.10.4 [default->runtime]
 [debug] == resolving dependencies default#scalaapps$sources_2.11;1.0->org.scala-lang#scala-library;2.10.4 [default->compile]
 [debug] == resolving dependencies default#scalaapps$sources_2.11;1.0->org.scala-lang#scala-library;2.10.4 [default->master]
-[debug] == resolving dependencies default#scalaapps$sources_2.11;1.0->org.scala-sbt#main;0.13.8 [default->default(compile)]
-[info] Resolving org.scala-sbt#main;0.13.8 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main;0.13.8 {default=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-sbt#main;0.13.8
-[debug] 	found org.scala-sbt#main;0.13.8 in sbt-chain
 [debug] == resolving dependencies default#scalaapps$sources_2.11;1.0->org.scala-sbt#actions;0.13.8 [default->default(compile)]
 [info] Resolving org.scala-sbt#actions;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#actions;0.13.8 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#actions;0.13.8
 [debug] 	found org.scala-sbt#actions;0.13.8 in sbt-chain
-[debug] == resolving dependencies default#scalaapps$sources_2.11;1.0->org.scala-sbt#classpath;0.13.8 [default->default(compile)]
-[info] Resolving org.scala-sbt#classpath;0.13.8 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#classpath;0.13.8 {default=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-sbt#classpath;0.13.8
-[debug] 	found org.scala-sbt#classpath;0.13.8 in sbt-chain
 [debug] == resolving dependencies default#scalaapps$sources_2.11;1.0->org.scala-lang#scala-compiler;2.10.4 [default->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {default=[default(compile)]}
@@ -863,11 +853,6 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#cross;0.13.8 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#cross;0.13.8
 [debug] 	found org.scala-sbt#cross;0.13.8 in sbt-chain
-[debug] == resolving dependencies default#scalaapps$sources_2.11;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f [default->default(compile)]
-[info] Resolving org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f {default=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f
-[debug] 	found org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f in sbt-chain
 [debug] == resolving dependencies default#scalaapps$sources_2.11;1.0->com.jcraft#jsch;0.1.46 [default->default(compile)]
 [info] Resolving com.jcraft#jsch;0.1.46 ...
 [debug] sbt-chain: Checking cache for: dependency: com.jcraft#jsch;0.1.46 {default=[default(compile)]}
@@ -1019,9 +1004,7 @@
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#actions;0.13.8!actions.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-sbt#classpath;0.13.8!classpath.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;0.13.8!launcher-interface.jar(src)
@@ -1044,7 +1027,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-ivy-integration;0.13.8!compiler-ivy-integration.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#ivy;0.13.8!ivy.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#cross;0.13.8!cross.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f!ivy.jar(src)
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#serialization_2.10;0.1.1!serialization_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-pickling_2.10;0.10.0!scala-pickling_2.10.jar(src)
@@ -1069,6 +1051,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 209ms :: artifacts dl 48ms
-[debug] 	report for default#scalaapps$sources_2.11;1.0 default produced in /Users/janicecheng/git-project/scalaapps/target/resolution-cache/reports/default-scalaapps$sources_2.11-default.xml
-[debug] 	resolve done (209ms resolve - 48ms download)
+[debug] :: resolution report :: resolve 341ms :: artifacts dl 79ms
+[debug] 	report for default#scalaapps$sources_2.11;1.0 default produced in /Users/jcchoiling/IdeaProjects/scalaapps/target/resolution-cache/reports/default-scalaapps$sources_2.11-default.xml
+[debug] 	resolve done (341ms resolve - 79ms download)
