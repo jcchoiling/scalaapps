@@ -14,14 +14,14 @@ class SuperMan(val name: String){
   def makeMirarcle = println(this.name + " : " + "Wow, wow, wow....")
 }
 
-object Implicits {
+object Implicit {
   implicit def man2SuperMan(man: Man) = new SuperMan(man.name)
 }
 
 object HelloImplicits {
   def main(args: Array[String]): Unit = {
 
-    import dtspark.basics.Implicits._
+    import dtspark.basics.Implicit._
 
     val man = new Man("Alex")
     man.makeMirarcle
