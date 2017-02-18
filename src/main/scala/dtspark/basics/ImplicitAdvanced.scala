@@ -27,7 +27,7 @@ object ImplicitAdvanced {
 
     def printContent(implicit content: String) = println(content)
 
-    val content = "I love Spark"
+//    val content = "I love Spark"
 
     import dtspark.basics.Implicits.content
 //    import dtspark.basics.Implicits_Msg._
